@@ -7,8 +7,8 @@
 #include <ESPmDNS.h>
 
 // *** WiFi-Zugangsdaten hier eintragen ***
-const char* ssid     = "DemandFlow";
-const char* password = "8SWRXBzkW0mukLfN4ul6Nl0Cues46Ie";
+const char* ssid     = "SSID";
+const char* password = "place your Password here";
 
 // mDNS-Hostname: erreichbar als http://alkafresh_1.local
 const char* mdnsName = "alkafresh_1";
