@@ -20,3 +20,8 @@ When the MCU connects to your WLAN, you get a serial message that includes the I
 5) After quite a short time you realize, that the voltage of each battery is increasing. As soon, as the voltage has hit 1.6 v for 10 times, this battery is finally refreshed and the process stops.
 6) If a battery is really bad, you see that the voltage does not move up. There is a 2h time out for this batteries. The voltage, at which the refreshing process starts, says little about the quality of the battery. We had batteries, that showed 0.5V initially. After refreshing, some of the are working now for 12 months.
 7) As soon as refresh is finished, you get a second table on you Web-UI. It shows the battery number, the last voltage before refresh was finished and the voltage at the moment. The rightmost column shows you, how many minutes ago refresh was finished. This gives you a hint, how much charge the battery is loosing without load. It is a measure for the inner resistance of the battery, which is the only useful information to find out how good the battery will be working in the future. This table is for 60 min. After 60 min it updates the battery voltages again and the process continues for another 60 min period.
+
+
+**KiCad-files and more**
+
+https://github.com/michael5411/Alkaline_Auffrischgeraet
