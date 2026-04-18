@@ -5,6 +5,10 @@ If you have built an alkaline-refresher for AA and AAA alkaline batteries, you a
 
 Here you will find the three .ino-Files you need. 
 
+These files are in German language: 
+- Alkaline_Auffrischen_3_1_WebService.ino
+- Messungen.ino
+- Tabellenoutput.ino
 
 **How to finalize the sketch**
 The sketch needs your WLAN SSID and your PASSWORD to hook up to your WLAN and deliver a WebSite using the mDNS: "alkafresh_1.local". Feel free to change the mDNS,if you like.
@@ -12,7 +16,6 @@ When the MCU connects to your WLAN, you get a serial message that includes the I
 
 
 **How does it work?**
-
 1) Power up and start your Alkaline-Refresher and place batteries for refresh 1 ... 4.
 2) You see the LEDs flashing one after the other. That shows, that there is a refreshing pulse going through each battery.
 3) After the sketch has connected your project to your WLAN, you will find the website of the project at "alkafresh_1.local".
@@ -23,5 +26,4 @@ When the MCU connects to your WLAN, you get a serial message that includes the I
 
 
 **KiCad-files and more**
-
 https://github.com/michael5411/Alkaline_Auffrischgeraet
